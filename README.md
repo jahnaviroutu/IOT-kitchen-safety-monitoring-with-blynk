@@ -64,7 +64,7 @@ This project was built and tested on [Wokwi](https://wokwi.com/projects/47694412
 - Blynk account and app
 
 ### Blynk Dashboard
-![Blynk Dashboard]
+![Blynk Dashboard](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/2f0a3bc11ad9431c036431678ed757ca1f088763/Screenshot%202026-10-04%20154937.png)
 
 ### Setup
 1. Clone this repository.
