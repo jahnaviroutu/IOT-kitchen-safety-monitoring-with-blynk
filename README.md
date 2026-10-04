@@ -11,8 +11,7 @@ This project is an upgrade of an earlier Arduino UNO-based version, rebuilt on E
 ### Circuit Diagram
 ![Circuit Diagram](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/2041874c8c8de1bfa189ee0276fd17b92b958e69/Screenshot%202026-10-04%20154425.png)
 
-### Blynk Dashboard
-![Blynk Dashboard](images/dashboard.png)
+
 
 ## Features
 
@@ -63,6 +62,9 @@ This project was built and tested on [Wokwi](https://wokwi.com/projects/47694412
 - LED
 - Arduino IDE with ESP32 board support installed
 - Blynk account and app
+
+### Blynk Dashboard
+![Blynk Dashboard]
 
 ### Setup
 1. Clone this repository.
