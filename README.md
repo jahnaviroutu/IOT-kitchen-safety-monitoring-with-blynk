@@ -9,7 +9,7 @@ This project is an upgrade of an earlier Arduino UNO-based version, rebuilt on E
 ---## Screenshots
 
 ### Circuit Diagram
-![Circuit Diagram](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/2041874c8c8de1bfa189ee0276fd17b92b958e69/Screenshot%202026-10-04%20154425.png)
+![Circuit Diagram](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/6c3050d638377fb512935353e3cfe80b7fc38b2c/kitchen%20safety%20monitoring%20%20with%20blynk%20-%20circuit%20diagram.png)
 
 
 
