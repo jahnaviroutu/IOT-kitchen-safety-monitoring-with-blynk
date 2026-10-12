@@ -1,5 +1,5 @@
 # IOT-kitchen-safety-monitoring-with-blynk
-ESP32-based safety monitor that tracks gas levels, temperature, and humidity, sending real-time alerts and data to the cloud via Blynk. Upgraded from an Arduino-based version to add WiFi connectivity and remote monitoring.  Tech: ESP32 · DHT11 · MQ2 Gas Sensor · Blynk · Wokwi
+ESP32-based safety monitor that tracks gas levels, temperature, and humidity, sending real-time alerts and data to the cloud via Blynk. Upgraded from an Arduino-based version to add WiFi connectivity and remote monitoring.  Tech: ESP32 · DHT22 · MQ2 Gas Sensor · Blynk · Wokwi
 # IoT Environmental Safety Monitor
 
 An ESP32-based environmental safety monitoring system that tracks gas leaks, temperature, and humidity in real time, with live data sent to the cloud via **Blynk** for remote monitoring.
@@ -16,7 +16,7 @@ This project is an upgrade of an earlier Arduino UNO-based version, rebuilt on E
 ## Features
 
 - 🔥 **Gas leak detection** using an MQ2 gas sensor
-- 🌡️ **Temperature & humidity monitoring** using a DHT11 sensor
+- 🌡️ **Temperature & humidity monitoring** using a DHT22 sensor
 - 📶 **Real-time data transmission** over WiFi to the Blynk IoT platform
 - 🚨 **Local alerts** via buzzer and LED when readings cross safe thresholds
 - ☁️ **Remote dashboard** for live monitoring from anywhere
@@ -29,7 +29,7 @@ This project is an upgrade of an earlier Arduino UNO-based version, rebuilt on E
 |----------------|---------------------------------------------------------|
 | ESP32          | Main microcontroller with built-in WiFi                 |
 | MQ2 Gas Sensor | Detects LPG, smoke, and combustible gas leaks           |
-| DHT11          | Measures temperature and humidity                       |
+| DHT22          | Measures temperature and humidity                       |
 | Buzzer         | Local audible alert on threshold breach                 |
 | LED            | Local visual alert on threshold breach                  |
 | Blynk          | Cloud platform for remote data visualization and alerts |
@@ -39,7 +39,7 @@ This project is an upgrade of an earlier Arduino UNO-based version, rebuilt on E
 
 ## How It Works
 
-1. The MQ2 and DHT11 sensors continuously read gas concentration, temperature, and humidity levels.
+1. The MQ2 and DHT22 sensors continuously read gas concentration, temperature, and humidity levels.
 2. The ESP32 processes these readings and checks them against safety thresholds.
 3. If a reading crosses a threshold (e.g., gas leak detected, high temperature), the buzzer and LED trigger a local alert.
 4. All sensor data is sent over WiFi to the Blynk app/dashboard, allowing the system to be monitored remotely in real time.
@@ -57,14 +57,14 @@ This project was built and tested on [Wokwi](https://wokwi.com/projects/47694412
 ### Requirements
 - ESP32 board
 - MQ2 gas sensor
-- DHT11 sensor
+- DHT22/DHT11 sensor
 - Buzzer
 - LED
 - Arduino IDE with ESP32 board support installed
 - Blynk account and app
 
 ### Blynk Dashboard
-![Blynk Dashboard](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/5c6f0440152a9360599056eaf44f98c7b60e9e5b/Screenshot%202026-10-04%20155932.png)
+![Blynk Dashboard](https://github.com/jahnaviroutu/IOT-kitchen-safety-monitoring-with-blynk/blob/6000e9b8508ed8a74c93f4c8475b58d9f512e984/working%20image.png)
 
 ### Setup
 1. Clone this repository.
